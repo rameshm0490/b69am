@@ -142,6 +142,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <finalName>devops</finalName>
+        <finalName><devops class="war"></devops></finalName>
     </build>
 </project>
