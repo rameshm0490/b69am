@@ -1,7 +1,7 @@
 node {
    def mvnHome
   stage('Prepare') {
-      git url: 'https://github.com/kesavkummari/cb9amjava.git', branch: 'b69am'
+      git url: 'https://github.com/rameshm0490/b69am.git', branch: 'main'
       mvnHome = tool 'maven'
    }
   stage ('Code Scan') {
